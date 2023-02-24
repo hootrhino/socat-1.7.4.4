@@ -1,0 +1,15 @@
+# 关于本仓库
+本仓库是 `socat 1.7.4.4` 的 **fork**，原仓库：`http://repo.or.cz/socat.git`，主要用来做物联网场景下的异地网关组网调试功能和内网映射功能，除了自己加了一部分日志功能以外和官方完全没有区别。本仓库仅供个人项目使用，当然你可以学习如何使用socat，但是如果你不熟悉 C 和网络技术不建议自己玩(主要原因是 socat 的源码不拘小节，难以梳理，也许只有作者能玩转)。
+
+## 编译
+```sh
+cd socat-1.7.4.4
+./configure
+make
+make install
+```
+
+## 参考
+
+- http://www.dest-unreach.org/socat/
+- http://repo.or.cz/socat.git
